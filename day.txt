@@ -1,0 +1,1005 @@
+   2019-08-12T13:22:08.29+0900 [API/1] OUT Process has crashed with type: "web"
+   2019-08-12T13:22:08.30+0900 [API/1] OUT App instance exited with guid 261f897c-80e2-4d21-8991-ea4bfbb54812 payload: {"instance"=>"04521423-c827-4dfc-7020-ce87", "index"=>0, "cell_id"=>"a80074e2-1044-4839-86cf-67b4b1798dfd", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1565583728261114507, "version"=>"edde859c-226a-4092-9e59-e86c455f8bcd"}
+   2019-08-12T13:22:08.34+0900 [CELL/0] OUT Cell 9507ba7c-8ce3-4d77-b92f-9f5fa5030916 creating container for instance b7311926-5001-426d-7c3f-fdd6
+   2019-08-12T13:22:08.45+0900 [PROXY/0] OUT Exit status 137
+   2019-08-12T13:22:08.60+0900 [CELL/0] OUT Cell a80074e2-1044-4839-86cf-67b4b1798dfd successfully destroyed container for instance 04521423-c827-4dfc-7020-ce87
+   2019-08-12T13:22:08.68+0900 [CELL/0] OUT Cell 9507ba7c-8ce3-4d77-b92f-9f5fa5030916 successfully created container for instance b7311926-5001-426d-7c3f-fdd6
+   2019-08-12T13:22:11.80+0900 [CELL/0] OUT Starting health monitoring of container
+   2019-08-12T13:22:12.01+0900 [APP/PROC/WEB/0] OUT JVM Memory Configuration: -Xmx440356K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=96219K
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR Exception in thread "main" java.lang.UnsupportedClassVersionError: io/pivotal/pal/tracker/PalTrackerApplication has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass1(Native Method)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at java.security.AccessController.doPrivileged(Native Method)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:93)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:46)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+   2019-08-12T13:22:12.35+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+   2019-08-12T13:22:12.36+0900 [APP/PROC/WEB/0] OUT Exit status 1
+   2019-08-12T13:22:12.37+0900 [CELL/SSHD/0] OUT Exit status 0
+   2019-08-12T13:22:18.79+0900 [CELL/0] OUT Cell 9507ba7c-8ce3-4d77-b92f-9f5fa5030916 stopping instance b7311926-5001-426d-7c3f-fdd6
+   2019-08-12T13:22:18.79+0900 [CELL/0] OUT Cell 9507ba7c-8ce3-4d77-b92f-9f5fa5030916 destroying container for instance b7311926-5001-426d-7c3f-fdd6
+   2019-08-12T13:22:18.79+0900 [API/1] OUT Process has crashed with type: "web"
+   2019-08-12T13:22:18.80+0900 [API/1] OUT App instance exited with guid 261f897c-80e2-4d21-8991-ea4bfbb54812 payload: {"instance"=>"b7311926-5001-426d-7c3f-fdd6", "index"=>0, "cell_id"=>"9507ba7c-8ce3-4d77-b92f-9f5fa5030916", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1565583738766504322, "version"=>"edde859c-226a-4092-9e59-e86c455f8bcd"}
+   2019-08-12T13:22:18.82+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 creating container for instance c8c6249f-4c4a-493b-4daa-0c7b
+   2019-08-12T13:22:18.97+0900 [PROXY/0] OUT Exit status 137
+   2019-08-12T13:22:19.13+0900 [CELL/0] OUT Cell 9507ba7c-8ce3-4d77-b92f-9f5fa5030916 successfully destroyed container for instance b7311926-5001-426d-7c3f-fdd6
+   2019-08-12T13:22:19.22+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 successfully created container for instance c8c6249f-4c4a-493b-4daa-0c7b
+   2019-08-12T13:22:22.20+0900 [CELL/0] OUT Starting health monitoring of container
+   2019-08-12T13:22:22.55+0900 [APP/PROC/WEB/0] OUT JVM Memory Configuration: -Xmx440356K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=96219K
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR Exception in thread "main" java.lang.UnsupportedClassVersionError: io/pivotal/pal/tracker/PalTrackerApplication has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass1(Native Method)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at java.security.AccessController.doPrivileged(Native Method)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:93)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:46)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+   2019-08-12T13:22:23.00+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+   2019-08-12T13:22:23.03+0900 [APP/PROC/WEB/0] OUT Exit status 1
+   2019-08-12T13:22:23.04+0900 [CELL/SSHD/0] OUT Exit status 0
+   2019-08-12T13:22:29.74+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 stopping instance c8c6249f-4c4a-493b-4daa-0c7b
+   2019-08-12T13:22:29.74+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 destroying container for instance c8c6249f-4c4a-493b-4daa-0c7b
+   2019-08-12T13:22:29.76+0900 [API/0] OUT Process has crashed with type: "web"
+   2019-08-12T13:22:29.77+0900 [API/0] OUT App instance exited with guid 261f897c-80e2-4d21-8991-ea4bfbb54812 payload: {"instance"=>"c8c6249f-4c4a-493b-4daa-0c7b", "index"=>0, "cell_id"=>"7dacf996-7f62-490b-9b66-4bf0a0531584", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1565583749735531549, "version"=>"edde859c-226a-4092-9e59-e86c455f8bcd"}
+   2019-08-12T13:22:29.92+0900 [PROXY/0] OUT Exit status 137
+   2019-08-12T13:22:30.07+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 successfully destroyed container for instance c8c6249f-4c4a-493b-4daa-0c7b
+   2019-08-12T13:23:21.50+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 creating container for instance 87b2ec7f-95b5-4d21-7812-a97d
+   2019-08-12T13:23:21.85+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 successfully created container for instance 87b2ec7f-95b5-4d21-7812-a97d
+   2019-08-12T13:23:22.48+0900 [CELL/0] OUT Starting health monitoring of container
+   2019-08-12T13:23:22.76+0900 [APP/PROC/WEB/0] OUT JVM Memory Configuration: -Xmx440356K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=96219K
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR Exception in thread "main" java.lang.UnsupportedClassVersionError: io/pivotal/pal/tracker/PalTrackerApplication has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass1(Native Method)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at java.security.AccessController.doPrivileged(Native Method)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:93)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:46)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+   2019-08-12T13:23:23.16+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+   2019-08-12T13:23:23.18+0900 [APP/PROC/WEB/0] OUT Exit status 1
+   2019-08-12T13:23:23.19+0900 [CELL/SSHD/0] OUT Exit status 0
+   2019-08-12T13:23:29.90+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 stopping instance 87b2ec7f-95b5-4d21-7812-a97d
+   2019-08-12T13:23:29.90+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 destroying container for instance 87b2ec7f-95b5-4d21-7812-a97d
+   2019-08-12T13:23:29.92+0900 [API/0] OUT Process has crashed with type: "web"
+   2019-08-12T13:23:29.93+0900 [API/0] OUT App instance exited with guid 261f897c-80e2-4d21-8991-ea4bfbb54812 payload: {"instance"=>"87b2ec7f-95b5-4d21-7812-a97d", "index"=>0, "cell_id"=>"7dacf996-7f62-490b-9b66-4bf0a0531584", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>4, "crash_timestamp"=>1565583809895908354, "version"=>"edde859c-226a-4092-9e59-e86c455f8bcd"}
+   2019-08-12T13:23:30.07+0900 [PROXY/0] OUT Exit status 137
+   2019-08-12T13:23:30.23+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 successfully destroyed container for instance 87b2ec7f-95b5-4d21-7812-a97d
+   2019-08-12T13:24:51.69+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 creating container for instance a952e9bc-093b-4e15-77bd-f796
+   2019-08-12T13:24:52.04+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 successfully created container for instance a952e9bc-093b-4e15-77bd-f796
+   2019-08-12T13:24:53.06+0900 [CELL/0] OUT Starting health monitoring of container
+   2019-08-12T13:24:53.28+0900 [APP/PROC/WEB/0] OUT JVM Memory Configuration: -Xmx440356K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=96219K
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR Exception in thread "main" java.lang.UnsupportedClassVersionError: io/pivotal/pal/tracker/PalTrackerApplication has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass1(Native Method)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at java.security.AccessController.doPrivileged(Native Method)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:93)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:46)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+   2019-08-12T13:24:53.62+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+   2019-08-12T13:24:53.64+0900 [APP/PROC/WEB/0] OUT Exit status 1
+   2019-08-12T13:24:53.64+0900 [CELL/SSHD/0] OUT Exit status 0
+   2019-08-12T13:25:00.33+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 stopping instance a952e9bc-093b-4e15-77bd-f796
+   2019-08-12T13:25:00.33+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 destroying container for instance a952e9bc-093b-4e15-77bd-f796
+   2019-08-12T13:25:00.35+0900 [API/0] OUT Process has crashed with type: "web"
+   2019-08-12T13:25:00.36+0900 [API/0] OUT App instance exited with guid 261f897c-80e2-4d21-8991-ea4bfbb54812 payload: {"instance"=>"a952e9bc-093b-4e15-77bd-f796", "index"=>0, "cell_id"=>"7dacf996-7f62-490b-9b66-4bf0a0531584", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>5, "crash_timestamp"=>1565583900328188322, "version"=>"edde859c-226a-4092-9e59-e86c455f8bcd"}
+   2019-08-12T13:25:00.50+0900 [PROXY/0] OUT Exit status 137
+   2019-08-12T13:25:00.66+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 successfully destroyed container for instance a952e9bc-093b-4e15-77bd-f796
+   2019-08-12T13:26:41.16+0900 [API/0] OUT Updated app with guid 261f897c-80e2-4d21-8991-ea4bfbb54812 ({"buildpack"=>"", "disk_quota"=>1024, "health_check_http_endpoint"=>"", "health_check_type"=>"port", "instances"=>1, "memory"=>1024, "name"=>"pal-tracker", "space_guid"=>"f28c9578-6e86-45b3-9786-ecd5c341c134"})
+   2019-08-12T13:26:42.33+0900 [API/0] OUT Uploading bits for app with guid 261f897c-80e2-4d21-8991-ea4bfbb54812
+   2019-08-12T13:26:46.97+0900 [API/0] OUT Updated app with guid 261f897c-80e2-4d21-8991-ea4bfbb54812 ({"state"=>"STOPPED"})
+   2019-08-12T13:26:47.41+0900 [API/1] OUT Creating build for app with guid 261f897c-80e2-4d21-8991-ea4bfbb54812
+   2019-08-12T13:26:47.62+0900 [API/1] OUT Updated app with guid 261f897c-80e2-4d21-8991-ea4bfbb54812 ({"state"=>"STARTED"})
+   2019-08-12T13:26:47.65+0900 [STG/0] OUT Downloading binary_buildpack...
+   2019-08-12T13:26:47.65+0900 [STG/0] OUT Downloading nodejs_buildpack...
+   2019-08-12T13:26:47.65+0900 [STG/0] OUT Downloading go_buildpack...
+   2019-08-12T13:26:47.65+0900 [STG/0] OUT Downloading r_buildpack...
+   2019-08-12T13:26:47.65+0900 [STG/0] OUT Downloading python_buildpack...
+   2019-08-12T13:26:47.66+0900 [STG/0] OUT Downloaded nodejs_buildpack
+   2019-08-12T13:26:47.66+0900 [STG/0] OUT Downloading php_buildpack...
+   2019-08-12T13:26:47.66+0900 [STG/0] OUT Downloaded r_buildpack
+   2019-08-12T13:26:47.66+0900 [STG/0] OUT Downloading dotnet_core_buildpack...
+   2019-08-12T13:26:47.67+0900 [STG/0] OUT Downloaded binary_buildpack
+   2019-08-12T13:26:47.67+0900 [STG/0] OUT Downloaded go_buildpack
+   2019-08-12T13:26:47.67+0900 [STG/0] OUT Downloading java_buildpack_offline...
+   2019-08-12T13:26:47.67+0900 [STG/0] OUT Downloaded python_buildpack
+   2019-08-12T13:26:47.67+0900 [STG/0] OUT Downloading staticfile_buildpack...
+   2019-08-12T13:26:47.67+0900 [STG/0] OUT Downloading nginx_buildpack...
+   2019-08-12T13:26:47.67+0900 [STG/0] OUT Downloaded php_buildpack
+   2019-08-12T13:26:47.67+0900 [STG/0] OUT Downloading ruby_buildpack...
+   2019-08-12T13:26:47.67+0900 [STG/0] OUT Downloaded staticfile_buildpack
+   2019-08-12T13:26:47.67+0900 [STG/0] OUT Downloaded dotnet_core_buildpack
+   2019-08-12T13:26:47.68+0900 [STG/0] OUT Downloaded java_buildpack_offline
+   2019-08-12T13:26:47.68+0900 [STG/0] OUT Downloaded nginx_buildpack
+   2019-08-12T13:26:47.68+0900 [STG/0] OUT Downloaded ruby_buildpack
+   2019-08-12T13:26:47.68+0900 [STG/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 creating container for instance ce4eb777-b2b9-4834-b5b3-db0ea0f0554a
+   2019-08-12T13:26:48.03+0900 [STG/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 successfully created container for instance ce4eb777-b2b9-4834-b5b3-db0ea0f0554a
+   2019-08-12T13:26:48.41+0900 [STG/0] OUT Downloading build artifacts cache...
+   2019-08-12T13:26:48.41+0900 [STG/0] OUT Downloading app package...
+   2019-08-12T13:26:48.44+0900 [STG/0] OUT Downloaded build artifacts cache (131B)
+   2019-08-12T13:26:48.89+0900 [STG/0] OUT Downloaded app package (13.8M)
+   2019-08-12T13:26:50.92+0900 [STG/0] OUT -----> Java Buildpack v4.18 (offline) | https://github.com/cloudfoundry/java-buildpack.git#a0df7d0
+   2019-08-12T13:26:50.99+0900 [STG/0] OUT -----> Downloading Jvmkill Agent 1.16.0_RELEASE from https://java-buildpack.cloudfoundry.org/jvmkill/bionic/x86_64/jvmkill-1.16.0_RELEASE.so (found in cache)
+   2019-08-12T13:26:50.99+0900 [STG/0] OUT -----> Downloading Open Jdk JRE 1.8.0_202 from https://java-buildpack.cloudfoundry.org/openjdk/bionic/x86_64/openjdk-1.8.0_202.tar.gz (found in cache)
+   2019-08-12T13:26:52.28+0900 [STG/0] OUT        Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre (1.2s)
+   2019-08-12T13:26:52.28+0900 [STG/0] OUT        JVM DNS caching disabled in lieu of BOSH DNS caching
+   2019-08-12T13:26:52.28+0900 [STG/0] OUT -----> Downloading Open JDK Like Memory Calculator 3.13.0_RELEASE from https://java-buildpack.cloudfoundry.org/memory-calculator/bionic/x86_64/memory-calculator-3.13.0_RELEASE.tar.gz (found in cache)
+   2019-08-12T13:26:52.93+0900 [STG/0] OUT        Loaded Classes: 13274, Threads: 250
+   2019-08-12T13:26:52.94+0900 [STG/0] OUT -----> Downloading Client Certificate Mapper 1.8.0_RELEASE from https://java-buildpack.cloudfoundry.org/client-certificate-mapper/client-certificate-mapper-1.8.0_RELEASE.jar (found in cache)
+   2019-08-12T13:26:52.94+0900 [STG/0] OUT -----> Downloading Container Security Provider 1.16.0_RELEASE from https://java-buildpack.cloudfoundry.org/container-security-provider/container-security-provider-1.16.0_RELEASE.jar (found in cache)
+   2019-08-12T13:26:52.94+0900 [STG/0] OUT -----> Downloading Spring Auto Reconfiguration 2.7.0_RELEASE from https://java-buildpack.cloudfoundry.org/auto-reconfiguration/auto-reconfiguration-2.7.0_RELEASE.jar (found in cache)
+   2019-08-12T13:27:01.86+0900 [STG/0] OUT Exit status 0
+   2019-08-12T13:27:01.86+0900 [STG/0] OUT Uploading droplet, build artifacts cache...
+   2019-08-12T13:27:01.86+0900 [STG/0] OUT Uploading droplet...
+   2019-08-12T13:27:01.86+0900 [STG/0] OUT Uploading build artifacts cache...
+   2019-08-12T13:27:01.92+0900 [STG/0] OUT Uploaded build artifacts cache (131B)
+   2019-08-12T13:27:02.66+0900 [API/0] OUT Creating droplet for app with guid 261f897c-80e2-4d21-8991-ea4bfbb54812
+   2019-08-12T13:27:05.87+0900 [STG/0] OUT Uploaded droplet (62.4M)
+   2019-08-12T13:27:05.89+0900 [STG/0] OUT Uploading complete
+   2019-08-12T13:27:06.11+0900 [STG/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 stopping instance ce4eb777-b2b9-4834-b5b3-db0ea0f0554a
+   2019-08-12T13:27:06.11+0900 [STG/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 destroying container for instance ce4eb777-b2b9-4834-b5b3-db0ea0f0554a
+   2019-08-12T13:27:06.41+0900 [CELL/0] OUT Cell a80074e2-1044-4839-86cf-67b4b1798dfd creating container for instance 0066586f-488d-4125-4ad2-77ff
+   2019-08-12T13:27:06.74+0900 [CELL/0] OUT Cell a80074e2-1044-4839-86cf-67b4b1798dfd successfully created container for instance 0066586f-488d-4125-4ad2-77ff
+   2019-08-12T13:27:08.18+0900 [STG/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 successfully destroyed container for instance ce4eb777-b2b9-4834-b5b3-db0ea0f0554a
+   2019-08-12T13:27:09.89+0900 [CELL/0] OUT Starting health monitoring of container
+   2019-08-12T13:27:10.14+0900 [APP/PROC/WEB/0] OUT JVM Memory Configuration: -Xmx440356K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=96219K
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR Exception in thread "main" java.lang.UnsupportedClassVersionError: io/pivotal/pal/tracker/PalTrackerApplication has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass1(Native Method)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at java.security.AccessController.doPrivileged(Native Method)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:93)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:46)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+   2019-08-12T13:27:10.46+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+   2019-08-12T13:27:10.49+0900 [APP/PROC/WEB/0] OUT Exit status 1
+   2019-08-12T13:27:10.49+0900 [CELL/SSHD/0] OUT Exit status 0
+   2019-08-12T13:27:17.06+0900 [CELL/0] OUT Cell a80074e2-1044-4839-86cf-67b4b1798dfd stopping instance 0066586f-488d-4125-4ad2-77ff
+   2019-08-12T13:27:17.06+0900 [CELL/0] OUT Cell a80074e2-1044-4839-86cf-67b4b1798dfd destroying container for instance 0066586f-488d-4125-4ad2-77ff
+   2019-08-12T13:27:17.07+0900 [API/0] OUT Process has crashed with type: "web"
+   2019-08-12T13:27:17.08+0900 [API/0] OUT App instance exited with guid 261f897c-80e2-4d21-8991-ea4bfbb54812 payload: {"instance"=>"0066586f-488d-4125-4ad2-77ff", "index"=>0, "cell_id"=>"a80074e2-1044-4839-86cf-67b4b1798dfd", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1565584037045708779, "version"=>"7c78c4eb-1f2b-43f3-8497-4920d868776b"}
+   2019-08-12T13:27:17.11+0900 [CELL/0] OUT Cell 9507ba7c-8ce3-4d77-b92f-9f5fa5030916 creating container for instance 22e64252-7589-4557-42d3-8063
+   2019-08-12T13:27:17.23+0900 [PROXY/0] OUT Exit status 137
+   2019-08-12T13:27:17.37+0900 [CELL/0] OUT Cell a80074e2-1044-4839-86cf-67b4b1798dfd successfully destroyed container for instance 0066586f-488d-4125-4ad2-77ff
+   2019-08-12T13:27:17.48+0900 [CELL/0] OUT Cell 9507ba7c-8ce3-4d77-b92f-9f5fa5030916 successfully created container for instance 22e64252-7589-4557-42d3-8063
+   2019-08-12T13:27:20.57+0900 [CELL/0] OUT Starting health monitoring of container
+   2019-08-12T13:27:20.83+0900 [APP/PROC/WEB/0] OUT JVM Memory Configuration: -Xmx440356K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=96219K
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR Exception in thread "main" java.lang.UnsupportedClassVersionError: io/pivotal/pal/tracker/PalTrackerApplication has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass1(Native Method)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at java.security.AccessController.doPrivileged(Native Method)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:93)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:46)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+   2019-08-12T13:27:21.20+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+   2019-08-12T13:27:21.22+0900 [APP/PROC/WEB/0] OUT Exit status 1
+   2019-08-12T13:27:21.22+0900 [CELL/SSHD/0] OUT Exit status 0
+   2019-08-12T13:27:27.75+0900 [CELL/0] OUT Cell 9507ba7c-8ce3-4d77-b92f-9f5fa5030916 stopping instance 22e64252-7589-4557-42d3-8063
+   2019-08-12T13:27:27.75+0900 [CELL/0] OUT Cell 9507ba7c-8ce3-4d77-b92f-9f5fa5030916 destroying container for instance 22e64252-7589-4557-42d3-8063
+   2019-08-12T13:27:27.76+0900 [API/0] OUT Process has crashed with type: "web"
+   2019-08-12T13:27:27.77+0900 [API/0] OUT App instance exited with guid 261f897c-80e2-4d21-8991-ea4bfbb54812 payload: {"instance"=>"22e64252-7589-4557-42d3-8063", "index"=>0, "cell_id"=>"9507ba7c-8ce3-4d77-b92f-9f5fa5030916", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1565584047734008071, "version"=>"7c78c4eb-1f2b-43f3-8497-4920d868776b"}
+   2019-08-12T13:27:27.79+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 creating container for instance 06502508-8959-4f3d-438f-972a
+   2019-08-12T13:27:27.96+0900 [PROXY/0] OUT Exit status 137
+   2019-08-12T13:27:28.10+0900 [CELL/0] OUT Cell 9507ba7c-8ce3-4d77-b92f-9f5fa5030916 successfully destroyed container for instance 22e64252-7589-4557-42d3-8063
+   2019-08-12T13:27:28.18+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 successfully created container for instance 06502508-8959-4f3d-438f-972a
+   2019-08-12T13:27:31.20+0900 [CELL/0] OUT Starting health monitoring of container
+   2019-08-12T13:27:31.47+0900 [APP/PROC/WEB/0] OUT JVM Memory Configuration: -Xmx440356K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=96219K
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR Exception in thread "main" java.lang.UnsupportedClassVersionError: io/pivotal/pal/tracker/PalTrackerApplication has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass1(Native Method)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at java.security.AccessController.doPrivileged(Native Method)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:93)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:46)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+   2019-08-12T13:27:31.82+0900 [APP/PROC/WEB/0] ERR at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+   2019-08-12T13:27:31.85+0900 [APP/PROC/WEB/0] OUT Exit status 1
+   2019-08-12T13:27:31.85+0900 [CELL/SSHD/0] OUT Exit status 0
+   2019-08-12T13:27:38.37+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 stopping instance 06502508-8959-4f3d-438f-972a
+   2019-08-12T13:27:38.37+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 destroying container for instance 06502508-8959-4f3d-438f-972a
+   2019-08-12T13:27:38.39+0900 [API/0] OUT Process has crashed with type: "web"
+   2019-08-12T13:27:38.40+0900 [API/0] OUT App instance exited with guid 261f897c-80e2-4d21-8991-ea4bfbb54812 payload: {"instance"=>"06502508-8959-4f3d-438f-972a", "index"=>0, "cell_id"=>"7dacf996-7f62-490b-9b66-4bf0a0531584", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1565584058366756638, "version"=>"7c78c4eb-1f2b-43f3-8497-4920d868776b"}
+   2019-08-12T13:27:38.56+0900 [PROXY/0] OUT Exit status 137
+   2019-08-12T13:27:38.70+0900 [CELL/0] OUT Cell 7dacf996-7f62-490b-9b66-4bf0a0531584 successfully destroyed container for instance 06502508-8959-4f3d-438f-972a
+pivotal@pivotal:~/workspace/pal-tracker$ PalTrackerApplication has been compiled by a more recent version of the Java Runtime (class file version 55.PalTrackerApplication has been compiled by a more recent version of the Java Runtime (class file version 55.
+bash: syntax error near unexpected token `('
+pivotal@pivotal:~/workspace/pal-tracker$ 
+pivotal@pivotal:~/workspace/pal-tracker$ java -version
+openjdk version "11.0.4" 2019-07-16
+OpenJDK Runtime Environment (build 11.0.4+11-post-Ubuntu-1ubuntu218.04.3)
+OpenJDK 64-Bit Server VM (build 11.0.4+11-post-Ubuntu-1ubuntu218.04.3, mixed mode, sharing)
+pivotal@pivotal:~/workspace/pal-tracker$ cf set-env pal-tracker JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+Setting env variable 'JBP_CONFIG_OPEN_JDK_JRE' to '{ jre: { version: 11.+ } }' for app pal-tracker in org sjlee5.lsis.com / space sandbox as sjlee5@lsis.com...
+OK
+TIP: Use 'cf restage pal-tracker' to ensure your env variable changes take effect
+pivotal@pivotal:~/workspace/pal-tracker$ cf push pal-tracker -p build/libs/pal-tracker.jar --random-route -m 1G^C
+pivotal@pivotal:~/workspace/pal-tracker$ cf start pal-tracker
+Starting app pal-tracker in org sjlee5.lsis.com / space sandbox as sjlee5@lsis.com...
+App pal-tracker is already started
+pivotal@pivotal:~/workspace/pal-tracker$ cf apps
+Getting apps in org sjlee5.lsis.com / space sandbox as sjlee5@lsis.com...
+OK
+name          requested state   instances   memory   disk   urls
+help          stopped           0/1         1G       1G     help.apps.evans.pal.pivotal.io
+pal-tracker   started           0/1         1G       1G     pal-tracker-thankful-ratel.apps.evans.pal.pivotal.io
+pivotal@pivotal:~/workspace/pal-tracker$ cf push pal-tracker -p build/libs/pal-tracker.jar --random-route -m 1G
+Pushing app pal-tracker to org sjlee5.lsis.com / space sandbox as sjlee5@lsis.com...
+Getting app info...
+Updating app with these attributes...
+Updating app pal-tracker...
+Mapping routes...
+Comparing local files to remote cache...
+Packaging files to upload...
+Uploading files...
+Waiting for API to complete processing files...
+Stopping app...
+Staging app and tracing logs...
+Waiting for app to start...
+name:              pal-tracker
+requested state:   started
+routes:            pal-tracker-thankful-ratel.apps.evans.pal.pivotal.io
+last uploaded:     Mon 12 Aug 13:34:24 KST 2019
+stack:             cflinuxfs3
+buildpacks:        client-certificate-mapper=1.8.0_RELEASE
+type:            web
+instances:       1/1
+memory usage:    1024M
+start command:   JAVA_OPTS="-agentpath:$PWD/.java-buildpack/open_jdk_jre/bin/jvmkill-1.16.0_RELEASE=printHeapHistogram=1
+                 -Djava.io.tmpdir=$TMPDIR -XX:ActiveProcessorCount=$(nproc)
+                 -Djava.ext.dirs=
+                 -Djava.security.properties=$PWD/.java-buildpack/java_security/java.security
+                 $JAVA_OPTS" &&                  CALCULATED_MEMORY=$($PWD/.java-buildpack/open_jdk_jre/bin/java-buildpack-memory-calculator-3.13.0_RELEASE
+                 -totMemory=$MEMORY_LIMIT -loadedClasses=19617 -poolType=metaspace
+                 -stackThreads=250 -vmOptions="$JAVA_OPTS") && echo JVM Memory
+pivotal@pivotal:~/workspace/pal-tracker$ cd ..
+pivotal@pivotal:~/workspace$ cd assignment-submission/
+pivotal@pivotal:~/workspace/assignment-submission$ ./gradlew cloudNativeDeveloperSimpleApp -PserverUrl=https://pal-tracker-thankful-ratel.apps.evans.pal.pivotal.io/
+> Task :cloudNativeDeveloperSimpleApp
+Starting assignment...
+GET https://pal-tracker-thankful-ratel.apps.evans.pal.pivotal.io/
+Assignment was successful.
+BUILD SUCCESSFUL in 4s
+1 actionable task: 1 executed
+pivotal@pivotal:~/workspace/assignment-submission$ cf push pal-tracker -p build/libs/pal-tracker.jar --random-route -m 1G^C
+pivotal@pivotal:~/workspace/assignment-submission$ 
+pivotal@pivotal:~$ x11vnc -forever -shared -rfbauth ~/.vnc/passwd
+09/08/2019 17:18:26 passing arg to libvncserver: -rfbauth
+09/08/2019 17:18:26 passing arg to libvncserver: /home/pivotal/.vnc/passwd
+09/08/2019 17:18:26 x11vnc version: 0.9.13 lastmod: 2011-08-10  pid: 4386
+09/08/2019 17:18:26 Using X display :0
+09/08/2019 17:18:26 rootwin: 0x53c reswin: 0x2c00001 dpy: 0xde555b90
+09/08/2019 17:18:26 
+09/08/2019 17:18:26 ------------------ USEFUL INFORMATION ------------------
+09/08/2019 17:18:26 X DAMAGE available on display, using it for polling hints.
+09/08/2019 17:18:26   To disable this behavior use: '-noxdamage'
+09/08/2019 17:18:26 
+09/08/2019 17:18:26   Most compositing window managers like 'compiz' or 'beryl'
+09/08/2019 17:18:26   cause X DAMAGE to fail, and so you may not see any screen
+09/08/2019 17:18:26   updates via VNC.  Either disable 'compiz' (recommended) or
+09/08/2019 17:18:26   supply the x11vnc '-noxdamage' command line option.
+09/08/2019 17:18:26 
+09/08/2019 17:18:26 Wireframing: -wireframe mode is in effect for window moves.
+09/08/2019 17:18:26   If this yields undesired behavior (poor response, painting
+09/08/2019 17:18:26   errors, etc) it may be disabled:
+09/08/2019 17:18:26    - use '-nowf' to disable wireframing completely.
+09/08/2019 17:18:26    - use '-nowcr' to disable the Copy Rectangle after the
+09/08/2019 17:18:26      moved window is released in the new position.
+09/08/2019 17:18:26   Also see the -help entry for tuning parameters.
+09/08/2019 17:18:26   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+09/08/2019 17:18:26   repaint the screen, also see the -fixscreen option for
+09/08/2019 17:18:26   periodic repaints.
+09/08/2019 17:18:26 
+09/08/2019 17:18:26 XFIXES available on display, resetting cursor mode
+09/08/2019 17:18:26   to: '-cursor most'.
+09/08/2019 17:18:26   to disable this behavior use: '-cursor arrow'
+09/08/2019 17:18:26   or '-noxfixes'.
+09/08/2019 17:18:26 using XFIXES for cursor drawing.
+09/08/2019 17:18:26 GrabServer control via XTEST.
+09/08/2019 17:18:26 
+09/08/2019 17:18:26 Scroll Detection: -scrollcopyrect mode is in effect to
+09/08/2019 17:18:26   use RECORD extension to try to detect scrolling windows
+09/08/2019 17:18:26   (induced by either user keystroke or mouse input).
+09/08/2019 17:18:26   If this yields undesired behavior (poor response, painting
+09/08/2019 17:18:26   errors, etc) it may be disabled via: '-noscr'
+09/08/2019 17:18:26   Also see the -help entry for tuning parameters.
+09/08/2019 17:18:26   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+09/08/2019 17:18:26   repaint the screen, also see the -fixscreen option for
+09/08/2019 17:18:26   periodic repaints.
+09/08/2019 17:18:26 
+09/08/2019 17:18:26 XKEYBOARD: number of keysyms per keycode 7 is greater
+09/08/2019 17:18:26   than 4 and 51 keysyms are mapped above 4.
+09/08/2019 17:18:26   Automatically switching to -xkb mode.
+09/08/2019 17:18:26   If this makes the key mapping worse you can
+09/08/2019 17:18:26   disable it with the "-noxkb" option.
+09/08/2019 17:18:26   Also, remember "-remap DEAD" for accenting characters.
+09/08/2019 17:18:26 
+09/08/2019 17:18:26 X FBPM extension not supported.
+09/08/2019 17:18:26 X display is capable of DPMS.
+09/08/2019 17:18:26 --------------------------------------------------------
+09/08/2019 17:18:26 
+09/08/2019 17:18:26 Default visual ID: 0x21
+09/08/2019 17:18:26 Read initial data from X display into framebuffer.
+09/08/2019 17:18:26 initialize_screen: fb_depth/fb_bpp/fb_Bpl 24/32/15360
+09/08/2019 17:18:26 
+09/08/2019 17:18:26 X display :0 is 32bpp depth=24 true color
+09/08/2019 17:18:26 
+09/08/2019 17:18:26 Autoprobing TCP port 
+09/08/2019 17:18:26 Autoprobing selected TCP port 5900
+09/08/2019 17:18:26 Autoprobing TCP6 port 
+09/08/2019 17:18:26 Autoprobing selected TCP6 port 5900
+09/08/2019 17:18:26 listen6: bind: Address already in use
+09/08/2019 17:18:26 Not listening on IPv6 interface.
+09/08/2019 17:18:26 
+09/08/2019 17:18:26 Xinerama is present and active (e.g. multi-head).
+09/08/2019 17:18:26 Xinerama: number of sub-screens: 2
+09/08/2019 17:18:26 Xinerama: enabling -xwarppointer mode to try to correct
+09/08/2019 17:18:26 Xinerama: mouse pointer motion. XTEST+XINERAMA bug.
+09/08/2019 17:18:26 Xinerama: Use -noxwarppointer to force XTEST.
+09/08/2019 17:18:26 Xinerama: sub-screen[0]  1920x1080+0+0
+09/08/2019 17:18:26 Xinerama: sub-screen[1]  1920x1080+1920+0
+09/08/2019 17:18:26 Xinerama: no blackouts needed (screen fills rectangle)
+09/08/2019 17:18:26 
+09/08/2019 17:18:26 fb read rate: 573 MB/sec
+09/08/2019 17:18:26 fast read: reset -wait  ms to: 10
+09/08/2019 17:18:26 fast read: reset -defer ms to: 10
+09/08/2019 17:18:26 The X server says there are 20 mouse buttons.
+09/08/2019 17:18:26 screen setup finished.
+09/08/2019 17:18:26 
+The VNC desktop is:      pivotal:0
+PORT=5900
+******************************************************************************
+Have you tried the x11vnc '-ncache' VNC client-side pixel caching feature yet?
+The scheme stores pixel data offscreen on the VNC viewer side for faster
+retrieval.  It should work with any VNC viewer.  Try it by running:
+One can also add -ncache_cr for smooth 'copyrect' window motion.
+More info: http://www.karlrunge.com/x11vnc/faq.html#faq-client-caching
+09/08/2019 17:18:34 Got connection from client 10.13.132.88
+09/08/2019 17:18:34   other clients:
+09/08/2019 17:18:34 Normal socket connection
+09/08/2019 17:18:34 Disabled X server key autorepeat.
+09/08/2019 17:18:34   to force back on run: 'xset r on' (3 times)
+09/08/2019 17:18:34 incr accepted_client=1 for 10.13.132.88:65116  sock=11
+09/08/2019 17:18:34 Client Protocol Version 3.8
+09/08/2019 17:18:34 Protocol version sent 3.8, using 3.8
+09/08/2019 17:18:34 rfbProcessClientSecurityType: executing handler for type 2
+09/08/2019 17:18:34 created   xdamage object: 0x2c0007c
+09/08/2019 17:18:34 copy_tiles: allocating first_line at size 121
+09/08/2019 17:18:39 client useCopyRect: 10.13.132.88 0
+09/08/2019 17:18:39 client_set_net: 10.13.132.88  0.0100
+09/08/2019 17:18:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000018)
+09/08/2019 17:18:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000016)
+09/08/2019 17:18:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000015)
+09/08/2019 17:18:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x0000000F)
+09/08/2019 17:18:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC6)
+09/08/2019 17:18:39 Enabling full-color cursor updates for client 10.13.132.88
+09/08/2019 17:18:39 Enabling NewFBSize protocol extension for client 10.13.132.88
+09/08/2019 17:18:39 Using ZRLE encoding for client 10.13.132.88
+09/08/2019 17:18:39 Pixel format for client 10.13.132.88:
+09/08/2019 17:18:39   8 bpp, depth 6
+09/08/2019 17:18:39   true colour: max r 3 g 3 b 3, shift r 4 g 2 b 0
+09/08/2019 17:18:39 Pixel format for client 10.13.132.88:
+09/08/2019 17:18:39   32 bpp, depth 24, little endian
+09/08/2019 17:18:39   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+09/08/2019 17:18:39 no translation needed
+09/08/2019 17:18:40 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000018)
+09/08/2019 17:18:40 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x0000000F)
+09/08/2019 17:18:40 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000016)
+09/08/2019 17:18:40 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000015)
+09/08/2019 17:18:40 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC6)
+09/08/2019 17:18:40 Enabling full-color cursor updates for client 10.13.132.88
+09/08/2019 17:18:40 Enabling NewFBSize protocol extension for client 10.13.132.88
+09/08/2019 17:18:40 Switching from ZRLE to hextile Encoding for client 10.13.132.88
+09/08/2019 17:18:40 client 1 network rate 2537.9 KB/sec (47521.0 eff KB/sec)
+09/08/2019 17:18:40 client 1 latency:  2.1 ms
+09/08/2019 17:18:40 dt1: 0.0141, dt2: 0.0043 dt3: 0.0021 bytes: 44300
+09/08/2019 17:18:40 link_rate: LR_LAN - 2 ms, 2537 KB/s
+09/08/2019 17:18:44 created selwin: 0x2c0007d
+09/08/2019 17:18:44 called initialize_xfixes()
+09/08/2019 17:23:38 idle keyboard:   turning X autorepeat back on.
+12/08/2019 08:47:32 rfbSendUpdateBuf: write: Connection timed out
+12/08/2019 08:47:32 client_count: 0
+12/08/2019 08:47:32 Client 10.13.132.88 gone
+12/08/2019 08:47:32 Statistics             events    Transmit/ RawEquiv ( saved)
+12/08/2019 08:47:32  ServerCutText       :      2 |       223/      223 (  0.0%)
+12/08/2019 08:47:32  FramebufferUpdate   :    108 |         0/        0 (  0.0%)
+12/08/2019 08:47:32  hextile             :    258 |    937079/ 48392152 ( 98.1%)
+12/08/2019 08:47:32  ZRLE                :      2 |   2248194/ 20736000 ( 89.2%)
+12/08/2019 08:47:32  RichCursor          :     14 |     30576/    30576 (  0.0%)
+12/08/2019 08:47:32  TOTALS              :    384 |   3216072/ 69158951 ( 95.3%)
+12/08/2019 08:47:32 Statistics             events    Received/ RawEquiv ( saved)
+12/08/2019 08:47:32  PointerEvent        :    457 |      2742/     2742 (  0.0%)
+12/08/2019 08:47:32  FramebufferUpdate   :    108 |      1080/     1080 (  0.0%)
+12/08/2019 08:47:32  SetPixelFormat      :      2 |        40/       40 (  0.0%)
+12/08/2019 08:47:32  SetEncodings        :      2 |       112/      112 (  0.0%)
+12/08/2019 08:47:32  TOTALS              :    569 |      3974/     3974 (  0.0%)
+12/08/2019 08:47:35 destroyed xdamage object: 0x2c0007c
+12/08/2019 09:14:10 check_xrandr_event():
+12/08/2019 09:14:10 Detected XRANDR event at location 'check_xevents':
+12/08/2019 09:14:10 check_xrandr_event: no change detected.
+12/08/2019 09:14:10 check_xrandr_event: enabling full XRANDR trapping anyway.
+12/08/2019 09:14:10 check_xrandr_event():
+12/08/2019 09:14:10 Detected XRANDR event at location 'check_xevents':
+12/08/2019 09:14:10   serial:          4100319
+12/08/2019 09:14:10   timestamp:       230348161
+12/08/2019 09:14:10   cfg_timestamp:   109830
+12/08/2019 09:14:10   size_id:         0
+12/08/2019 09:14:10   sub_pixel:       0
+12/08/2019 09:14:10   rotation:        1
+12/08/2019 09:14:10   width:           1920
+12/08/2019 09:14:10   height:          1080
+12/08/2019 09:14:10   mwidth:          508 mm
+12/08/2019 09:14:10   mheight:         286 mm
+12/08/2019 09:14:10 
+12/08/2019 09:14:10 check_xrandr_event: previous WxH: 3840x1080
+12/08/2019 09:14:10 check_xrandr_event: updating config...
+12/08/2019 09:14:10 xrandr_mode: default
+12/08/2019 09:14:10 check_xrandr_event: trying to create new framebuffer...
+12/08/2019 09:14:10 deleted 120 tile_row polling images.
+12/08/2019 09:14:10 Default visual ID: 0x21
+12/08/2019 09:14:10 Read initial data from X display into framebuffer.
+12/08/2019 09:14:10 initialize_screen: fb_depth/fb_bpp/fb_Bpl 24/32/7680
+12/08/2019 09:14:10 rfbNewFramebuffer(0xde5d2d20, 0x0, 1920, 1080, 8, 1, 4)
+12/08/2019 09:14:10 
+12/08/2019 09:14:10 X display :0 is 32bpp depth=24 true color
+12/08/2019 09:14:10 
+12/08/2019 09:14:10 calling setTranslateFunction()...
+12/08/2019 09:14:10   done.
+12/08/2019 09:14:10 
+12/08/2019 09:14:10 Xinerama is present and active (e.g. multi-head).
+12/08/2019 09:14:10 Xinerama: number of sub-screens: 2
+12/08/2019 09:14:10 Xinerama: sub-screen[0]  1920x1080+0+0
+12/08/2019 09:14:10 Xinerama: sub-screen[1]  1920x1080+0+0
+12/08/2019 09:14:10 Xinerama: no blackouts needed (screen fills rectangle)
+12/08/2019 09:14:10 
+12/08/2019 09:14:10 check_xrandr_event: fb       WxH: 1920x1080
+12/08/2019 09:14:10 check_xrandr_event: current  WxH: 1920x1080
+12/08/2019 09:14:10 check_xrandr_event(): returning control to caller...
+12/08/2019 09:14:10 check_xrandr_event():
+12/08/2019 09:14:10 Detected XRANDR event at location 'copy_screen-set':
+12/08/2019 09:14:10   serial:          4100319
+12/08/2019 09:14:10   timestamp:       230348247
+12/08/2019 09:14:10   cfg_timestamp:   109830
+12/08/2019 09:14:10   size_id:         0
+12/08/2019 09:14:10   sub_pixel:       0
+12/08/2019 09:14:10   rotation:        1
+12/08/2019 09:14:10   width:           1920
+12/08/2019 09:14:10   height:          1080
+12/08/2019 09:14:10   mwidth:          508 mm
+12/08/2019 09:14:10   mheight:         286 mm
+12/08/2019 09:14:10 
+12/08/2019 09:14:10 check_xrandr_event: previous WxH: 1920x1080
+12/08/2019 09:14:10 check_xrandr_event: no change detected.
+12/08/2019 09:14:10 check_xrandr_event: updating config...
+12/08/2019 09:14:10 check_xrandr_event: current  WxH: 1920x1080
+12/08/2019 09:14:10 check_xrandr_event(): returning control to caller...
+12/08/2019 09:50:52 deleted 60 tile_row polling images.
+pivotal@pivotal:~$ 
+pivotal@pivotal:~$ ls
+다운로드  Documents         Music     snap                   Videos
+Desktop   Downloads         Pictures  stale_outputs_checked  workspace
+dev       examples.desktop  Public    Templates
+pivotal@pivotal:~$ cd workspace/
+pivotal@pivotal:~/workspace$ ls
+assignment-submission  demo
+pivotal@pivotal:~/workspace$ cd demo/
+pivotal@pivotal:~/workspace/demo$ cd ..
+pivotal@pivotal:~/workspace$ git log --graph --decorate --oneline --all
+fatal: not a git repository (or any of the parent directories): .git
+pivotal@pivotal:~/workspace$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+These are common Git commands used in various situations:
+start a working area (see also: git help tutorial)
+work on the current change (see also: git help everyday)
+examine the history and state (see also: git help revisions)
+grow, mark and tweak your common history
+collaborate (see also: git help workflows)
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+pivotal@pivotal:~/workspace$ git log --graph --decorate --oneline --all
+fatal: not a git repository (or any of the parent directories): .git
+pivotal@pivotal:~/workspace$ git log --graph --decorate --oneline --all
+fatal: not a git repository (or any of the parent directories): .git
+pivotal@pivotal:~/workspace$ cd 
+assignment-submission/ demo/                  pal-tracker/
+pivotal@pivotal:~/workspace$ cd pal-tracker/
+pivotal@pivotal:~/workspace/pal-tracker$ git log --graph --decorate --oneline --all
+* b340a5c (tag: actuator-solution, origin/solution) Add actuator endpoints
+* 9811e5c (tag: actuator-start) Add tests for Actuator lab
+* 3e66886 (tag: jdbc-solution) Persist time entries in database
+* e85554f (tag: jdbc-start) Add tests for JDBC lab
+* e61afd4 (tag: migration-solution) Add migrations and pipeline changes
+* d921f90 (tag: migration-start) Add task for migrating databases
+* b084c49 (tag: mvc-solution) Add TimeEntry MVC in memory
+* e7fc297 (tag: mvc-start) Add tests for MVC lab
+* 1cdc689 (tag: pipeline-solution) Update route
+* 5c80684 (tag: pipeline-start) Add deployment pipeline
+* 9b5f073 (tag: deployment-solution) Add manifest file for deployment to PCF
+* 9527734 (tag: deployment-start) Add tests for deployment lab
+* 1a6e41b (tag: spring-boot-solution) Simple Spring Boot app
+* 59a00bb (HEAD -> master, tag: spring-boot-start, origin/master) Initial commit
+pivotal@pivotal:~/workspace/pal-tracker$ git push origin master --tags
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.
+pivotal@pivotal:~/workspace/pal-tracker$ git remote add origin https://github.com/sypark2/pal-tracker.git
+pivotal@pivotal:~/workspace/pal-tracker$ git push origin master --tags
+fatal: unable to access 'https://github.com/sypark2/pal-tracker.git/': server certificate verification failed. CAfile: /etc/ssl/certs/ca-certificates.crt CRLfile: none
+pivotal@pivotal:~/workspace/pal-tracker$ export GIT_SSL_NO_VERIFY=0
+pivotal@pivotal:~/workspace/pal-tracker$ git push origin master --tags
+Username for 'https://github.com': sypark2
+Password for 'https://sypark2@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/sypark2/pal-tracker.git/'
+pivotal@pivotal:~/workspace/pal-tracker$ git push origin master --tags
+Username for 'https://github.com': sypark2
+Password for 'https://sypark2@github.com': 
+Counting objects: 156, done.
+Delta compression using up to 28 threads.
+Compressing objects: 100% (70/70), done.
+Writing objects: 100% (156/156), 74.89 KiB | 74.89 MiB/s, done.
+Total 156 (delta 28), reused 156 (delta 28)
+remote: Resolving deltas: 100% (28/28), done.
+To https://github.com/sypark2/pal-tracker.git
+error: failed to push some refs to 'https://github.com/sypark2/pal-tracker.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+pivotal@pivotal:~/workspace/pal-tracker$ gradle wrapper
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+pivotal@pivotal:~/workspace/pal-tracker$ touch build.gradle
+pivotal@pivotal:~/workspace/pal-tracker$ cf -help
+cf version 6.46.0+29d6257f1.2019-07-09, Cloud Foundry command line tool
+Usage: cf [global options] command [arguments...] [command options]
+Before getting started:
+Application lifecycle:
+Services integration:
+Route and domain management:
+Space management:
+Org management:
+CLI plugin management:
+Commands offered by installed plugins:
+Global options:
+TIP: Use 'cf help -a' to see all commands.
+pivotal@pivotal:~/workspace/pal-tracker$ cf login --help
+NAME:
+USAGE:
+WARNING:
+EXAMPLES:
+ALIAS:
+OPTIONS:
+SEE ALSO:
+pivotal@pivotal:~/workspace/pal-tracker$ cf login
+API endpoint> api.sys.evans.pal.pivotal.io      
+Email> sjlee5@lsis.com
+Password> 
+Authenticating...
+OK
+Targeted org sjlee5.lsis.com
+Targeted space sandbox
+API endpoint:   https://api.sys.evans.pal.pivotal.io (API version: 2.131.0)
+User:           sjlee5@lsis.com
+Org:            sjlee5.lsis.com
+Space:          sandbox
+pivotal@pivotal:~/workspace/pal-tracker$ target
+Command 'target' not found, did you mean:
+Try: sudo apt install <deb name>
+pivotal@pivotal:~/workspace/pal-tracker$ cf set-env pal-tracker JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+FAILED
+App pal-tracker not found
+pivotal@pivotal:~/workspace/pal-tracker$ cd ..
+pivotal@pivotal:~/workspace$ cf set-env pal-tracker JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+FAILED
+App pal-tracker not found
+pivotal@pivotal:~/workspace$ cd pal-tracker/
+pivotal@pivotal:~/workspace/pal-tracker$ ifconfig
+enp0s25: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+enp9s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+ens2: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+pivotal@pivotal:~/workspace/pal-tracker$ 
+pivotal@pivotal:~/workspace/pal-tracker$ cf push help
+Pushing app help to org sjlee5.lsis.com / space sandbox as sjlee5@lsis.com...
+Getting app info...
+Creating app with these attributes...
++ name:       help
++   help.apps.evans.pal.pivotal.io
+Creating app help...
+Mapping routes...
+Comparing local files to remote cache...
+Packaging files to upload...
+Uploading files...
+Waiting for API to complete processing files...
+Staging app and tracing logs...
+Error staging application: An app was not successfully detected by any available buildpack
+TIP: Use 'cf buildpacks' to see a list of supported buildpacks.
+FAILED
+pivotal@pivotal:~/workspace/pal-tracker$ ls
+build         gradle   gradlew.bat               settings.gradle
+build.gradle  gradlew  pal-tracker-codebase.txt  src
+pivotal@pivotal:~/workspace/pal-tracker$ cf -help
+cf version 6.46.0+29d6257f1.2019-07-09, Cloud Foundry command line tool
+Usage: cf [global options] command [arguments...] [command options]
+Before getting started:
+Application lifecycle:
+Services integration:
+Route and domain management:
+Space management:
+Org management:
+CLI plugin management:
+Commands offered by installed plugins:
+Global options:
+TIP: Use 'cf help -a' to see all commands.
+pivotal@pivotal:~/workspace/pal-tracker$ cf --help
+cf version 6.46.0+29d6257f1.2019-07-09, Cloud Foundry command line tool
+Usage: cf [global options] command [arguments...] [command options]
+Before getting started:
+Application lifecycle:
+Services integration:
+Route and domain management:
+Space management:
+Org management:
+CLI plugin management:
+./gradlew bootRun
+ls
+cd workspace/
+ls
+cd pal-tracker/
+ls
+history
+history > /home/desktop/day1.txt
+history > day1_history.txt
+git add .
+git commit -m "day1"
+x11vnc -forever -shared -rfbauth ~/.vnc/passwd
+git commit -m "day1"
+git config --global user.email "sjlee5@lsis.com"
+git config --global user.name "sjlee5"
+git commit -m "day1"
+git push
+git push -f
+cd ..
+cd assignment-submission/
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperSimpleApp -PserverUrl=https://pal-tracker-thankful-ratel.apps.evans.pal.pivotal.io/
+cd
+cf buildpacks
+cd /workspace/
+cd /workspace
+cd /workspace
+ls
+cd workspace
+ls
+cd pal-tracker
+cf buildpacks
+df =h
+df -h
+cf login -a api.run.pivotal.io
+cf logout
+cf login -a api.run.pivotal.io
+cf login -a api.sys.evans.pal.pivotal.io
+cf push -p build/libs/pal-tracker.jar --random-route
+cf push pal-tracker -p build/libs/pal-tracker.jar --random-route
+cf start pal-tracker
+git push
+git commit -m ""
+git add .
+git commit -m ""
+git commit -m "test"
+git push
+git push --tags
+ls
+clear
+git cherry-pick deployment-start
+WELCOME_MESSAGE=hello ./gradlew bootRun
+./gradlew bootRun
+netstat -ntpl
+kill -a 15410
+kill  15410
+netstat -ntpl
+./gradlew bootRun
+cf push pal-tracker -p build/libs/pal-tracker.jar --random-route
+cf logs pal-tracker --recent
+cf restart pal-tracker
+cf restage pal-tracker
+cf set-env pal-tracker WELCOME_MESSAGE="Hello"
+cf set-env pal-tracker WELCOME_MESSAGE Hello
+cf restage pal-tracker
+cf restart pal-tracker
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=https://pal-tracker-thankful-ratel.apps.evans.pal.pivotal.io/
+cf delete
+cf delete pal-tracker
+cf push pal-tracker -p build/libs/pal-tracker.jar --random-route
+cd ..
+cd pal-tracker/
+cf push pal-tracker -p build/libs/pal-tracker.jar --random-route
+cf delete pal-tracker
+cf push pal-tracker -p build/libs/pal-tracker.jar --random-route
+git add
+git commit -m "test"
+git push
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=https://pal-tracker-thankful-ratel.apps.evans.pal.pivotal.io/
+./gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=https://pal-tracker-courteous-mandrill.apps.evans.pal.pivotal.io/
+cf push
+cd ..
+cd pal-tracker/
+cf push
+cf restage pal-tracker
+cf target
+ls
+cd workspace/
+ls
+cd pal-tracker/
+git cherry-pick pipeline-start
+cd workspace/
+cd ~
+./gradlew clean compileJava
+./gradlew clean build
+cd ~/workspace/pal-tracker
+git cherry-pick migration-start
+cf marketplace
+cf create-service--help
+cf create-service p.mysql db-small tracker-database
+cf service tracker-database
+ls
+mkdir databases
+cd databases
+mkdir tracker
+history
+cd ..
+history > day2.txt
+ifconfig
+ifconfig -a
+ls
+cd workspace
+ls
+cd pal-tracker
+git cherry-pick jdbc-start
+mysql -uroot
+.vscode
+vscode
+code
+history Day3.txt
+history ->Day3.txt
+history -> Day3.txt
+history->Day3.txt
+history --help
+history > Day3.txt
+./gradlew clean build
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperDatabaseAccess -PserverUrl=https://pal-tracker-courteous-mandrill.apps.evans.pal.pivotal.io/
+./gradlew clean compileJava
+cd ..
+cd pal-tracker/
+./gradlew clean compileJava
+./gradlew clean compileTest
+./gradlew clean compileJavaTest
+history
+./gradlew clean compileJavaTest
+./gradlew clean compileJava
+./gradlew clean compileTest
+./gradlew clean compileTestJava
+./gradlew clean compileTest
+git cherry-pick actuator-start
+./gradlew clean compileTestJava
+./gradlew clean build
+cf set-env pal-tracker MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE "*"
+cf set-env pal-tracker MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS always
+cf restage pal-tracker
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperHealthMonitoring -PserverUrl=https://pal-tracker-courteous-mandrill.apps.evans.pal.pivotal.io/
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperHealthMonitoring -PserverUrl=https://pal-tracker-courteous-mandrill.apps.evans.pal.pivotal.io/
+cd
+ls
+cd workspace
+ls
+cd pal-tracker
+ls
+./gradlew clean build
+~/workspace/assignment-submission
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperHealthMonitoring -PserverUrl=https://pal-tracker-courteous-mandrill.apps.evans.pal.pivotal.io/actuator
+cf scale --help
+cf app pal-tracker
+cf app pal-tracker -m 2G
+cf scale pal-tracker -m 2G
+cf 
+cf scale --help
+cf scale pal-tracker -i 5
+cf app pal-tracker
+cf scale pal-tracker -m 2G
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperScaling -PserverUrl=https://pal-tracker-courteous-mandrill.apps.evans.pal.pivotal.io/
+cd ~
+ls
+cd workspace
+ls
+cd
+ls
+cf app pal-tracker
+ifconfig
+sudo su -root
+sudo adduser Soya
+sudo adduser soya
+sudo useradd soya
+sudo smbpasswd -a soya
+sudo pdbedit -L
+sudo service smbd restart
+cls
+clear
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/registration -d'{"name": "Pete"}'
+curl -i localhost:8083/users/
+curl -i localhost:8083/users/1
+curl -i localhost:8083/accounts?ownerId=1
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Basket Weaving\", \"accountId\": ${ACCOUNT_ID}}"
+curl -i localhost:8083/projects?accountId=1
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Basket Weaving\", \"accountId\": 1}"
+curl -i localhost:8083/projects?accountId=1
+curl -i localhost:8083/projects?accountId=2
+curl -i -XPOST -H"Content-Type: application/json" localhost:8081/allocations -d"{\"projectId\": 1, \"userId\": 1, \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}"
+curl -i localhost:8084/time-entries?userId=1
+curl -i localhost:8082/stories?projectId=1
+curl -i localhost:8082/stories?projectId=2
+curl -i localhost:8084/time-entries?userId=2
+curl -i localhost:8084/time-entries?userId=0
+cf domains
+cf target
+cf create-route --help 
+cf create-route sjlee5 apps.evans.pal.pivotal.io --hostname registration-server-akbae
+cf create-route sandbox apps.evans.pal.pivotal.io --hostname registration-server-akbae
+cf create-route sandbox apps.evans.pal.pivotal.io --hostname allocations-server-akbae
+cf create-route sandbox apps.evans.pal.pivotal.io --hostname backlog-server-akbae
+cf create-route sandbox apps.evans.pal.pivotal.io --hostname timesheets-server-akbae
+cf routes
+git add .
+git commit -m "first"
+git push
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperDistributedSystemDeployment     -PregistrationServerUrl=https://registration-server-akbae.apps.evans.pal.pivotal.io     -PbacklogServerUrl=https://backlog-server-akbae.apps.evans.pal.pivotal.io     -PallocationsServerUrl=https://allocations-server-akbae.apps.evans.pal.pivotal.io     -PtimesheetsServerUrl=https://timesheets-server-akbae.apps.evans.pal.pivotal.io
+cd ..
+ls
+cd pal-tracker-distributed
+cf services
+cd pal-tracker-distributed
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperDistributedSystemDeployment     -PregistrationServerUrl=https://registration-server-akbae.apps.evans.pal.pivotal.io     -PbacklogServerUrl=https://backlog-server-akbae.apps.evans.pal.pivotal.io     -PallocationsServerUrl=https://allocations-server-akbae.apps.evans.pal.pivotal.io     -PtimesheetsServerUrl=https://timesheets-server-akbae.apps.evans.pal.pivotal.io
+history - Day4.txt
+history->Day4.txt
+history -> Day4.txt
+history --help
+history -w Day4.txt
+cd ..
+ls
+cd pal-tracker-distributed
+
+gradle dependenciesGraph
+history
+./gradlew platform-services:eureka-server:bootRun
+history
+cf marketplace
+cf p-circuit-breaker-dashboard standard tracker-circuit-breaker-dashboard
+cf create-service p-circuit-breaker-dashboard standard tracker-circuit-breaker-dashboard
+cf services
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/registration -d'{"name": "Pete"}'
+curl -i localhost:8083/accounts?ownerId=1
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Project A\", \"accountId\": \"1\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Project B\", \"accountId\": \"2\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8081/allocations/ -d"{\"projectId\": \"1\", \"userId\": \"1\", \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8081/allocations/ -d"{\"projectId\": \"2\", \"userId\": \"1\", \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8081/allocations/ -d"{\"projectId\": \"1\", \"userId\": \"1\", \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}"
+git commit -m "third"
+./gradlew clean build
+git add .
+git commit -m "third"
+git push
+curl -i -XPOST -H"Content-Type: application/json" localhost:8081/allocations/ -d"{\"projectId\": \"2\", \"userId\": \"1\", \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8081/allocations/ -d"{\"projectId\": \"1\", \"userId\": \"1\", \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}"
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperDistributedSystemWithCircuitBreaker     -PregistrationServerUrl=https://registration-server-akbae.apps.evans.pal.pivotal.io     -PbacklogServerUrl=https://backlog-server-akbae.apps.evans.pal.pivotal.io     -PallocationsServerUrl=https://allocations-server-akbae.apps.evans.pal.pivotal.io     -PtimesheetsServerUrl=https://timesheets-server-akbae.apps.evans.pal.pivotal.io
+./gradlew clean build
+cd ..
+ls
+cd pal-tracker-distributed
+./gradlew clean build
+git add .
+git commit -m "third modify"
+git push
+./gradlew clean build
+git add .
+git commit -m "third final"
+git push
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/registration -d'{"name": "BAE"}'
+curl -i localhost:8083/accounts?ownerId=1
+curl -i localhost:8083/accounts?ownerId=2
+curl -i localhost:8083/accounts?ownerId=3
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects"
+
+
+fjeioaf
+
+
+curl -i localhost:8083/accounts
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Project A\", \"accountId\": \"1\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Project A\", \"accountId\": \"3\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Project C\", \"accountId\": \"3\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8081/allocations/ -d"{\"projectId\": \"2\", \"userId\": \"1\", \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8081/allocations/ -d"{\"projectId\": \"1\", \"userId\": \"1\", \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/registration -d'{"name": "Park"}'
+curl -i localhost:8083/accounts?ownerId=4
+" localhost:8083/projects -d"{\"name\": \"Project A\", \"accountId\": \"${ACCOUNT_ID}\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Project AA\", \"accountId\": \"3\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Project BB\", \"accountId\": \"4\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Project BB\", \"accountId\": \"5\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Project BB\", \"accountId\": \"7\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Project CC\", \"accountId\": \"10\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8083/projects -d"{\"name\": \"Project BB\", \"accountId\": \"3\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8081/allocations/ -d"{\"projectId\": \"7\", \"userId\": \"4\", \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8081/allocations/ -d"{\"projectId\": \"12\", \"userId\": \"4\", \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}"
+curl -i -XPOST -H"Content-Type: application/json" localhost:8081/allocations/ -d"{\"projectId\": \"7\", \"userId\": \"4\", \"firstDay\": \"2015-05-17\", \"lastDay\": \"2015-05-18\"}"
+histoty -w day4.txt
+history -w day.txt
